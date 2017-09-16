@@ -1,0 +1,39 @@
+<!-- set up the html side
+assign buttons at the top of the page that will populate the page with 10 static gifs from the giphy api
+
+FINISHED try to make a small form that will add the value of the input from the form to add append a button FINISHED
+
+to the buttons at the top of the list. 
+try to make the gifs pulled via the api to run through and pause using an onClick function most likely
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>week6 HW</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+<div class="container">
+	<div id="animalButtons">
+		
+
+	</div>
+
+	<form id="animalForm">
+		<label for="animalInput">Add an Animal</label>
+		<input type="text" id="animalInput" placeholder="Type Here!"><br>
+
+		<input id= "addAnimal" type="submit" value="Submit">
+	</form>
+	
+	<div id = "animalGifs">
+		
+
+	</div>
+</div>	
+<!--	<script type="text/javascript" src="bower_components/jquery.gifplayer/dist/jquery.gifplayer.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/app.js"></script>	
+</body>
+</html>
