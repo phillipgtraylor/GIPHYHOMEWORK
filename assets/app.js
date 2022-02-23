@@ -2,9 +2,9 @@ var animals = ["Red Panda","Blob Fish","Turritopsis","Slow Loris","snek","Spider
 
 
 //animalGIF function applies the info desired to be sent to the html
-// api key.. do not store like this unless you want to get fucked
-//dd99d67ec0d04836812ce6059646c1bf
-//https://api.giphy.com/v1/gifs/search?api_key=dd99d67ec0d04836812ce6059646c1bf&q=cat&limit=10&offset=0&rating=PG-13&lang=en
+// api key..
+
+
 function animalGIF() {
 	$("#animalGifs").empty();
 	
